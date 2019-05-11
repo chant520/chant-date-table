@@ -72,7 +72,7 @@ $(function(){
             dateArr[level].push(start);
         }
         let i=0,
-        htmlTable ='<tr> <td>日</td> <td>一</td> <td>二</td> <td>三</td> <td>四</td> <td>五</td> <td>六</td> </tr>',
+        htmlTable ='<tr> <td>Sun</td> <td>Mon</td> <td>Tue</td> <td>Web</td> <td>Thu</td> <td>Fri</td> <td>Sat</td> </tr>',
         currentY  = getCurrentDate('year'),
         currentM  = getCurrentDate('month'),
         currentD  = getCurrentDate('day');
